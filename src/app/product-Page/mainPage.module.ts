@@ -1,13 +1,14 @@
 import { NgModule } from "@angular/core";
-import { MainPageComponent } from './main-page/main-page.component';
 import { CommonModule } from "@angular/common";
-import { ProductComponent } from "./product/product.component";
 import { AlertsModule } from "../alerts";
+import { ProductCardComponent } from './product-card/product-card.component';
+import { ProductScreenComponent } from './product-screen/product-screen.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
   imports:[ CommonModule, AlertsModule],
-  declarations:[ MainPageComponent, ProductComponent],
-  exports:[MainPageComponent, ProductComponent]
+  declarations:[ ProductCardComponent, ProductScreenComponent, CategoryComponent],
+  exports:[ ProductCardComponent, ProductScreenComponent, CategoryComponent]
 })
-export class MainPageModule{}
+export class ProductPageModule{}

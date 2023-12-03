@@ -1,5 +1,5 @@
 import { from } from 'rxjs'
 
 export * from './mainPage.module'
-export * from './main-page/main-page.component'
-export * from './product/product.component'
+export * from './product-card/product-card.component'
+export * from './product-screen/product-screen.component'

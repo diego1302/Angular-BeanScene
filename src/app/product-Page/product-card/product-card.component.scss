@@ -1,0 +1,40 @@
+.product-container {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .card-container {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: auto;
+  }
+  
+  .product-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #000;
+  }
+  
+  .image {
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  

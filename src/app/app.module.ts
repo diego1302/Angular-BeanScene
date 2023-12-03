@@ -2,9 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainPageModule } from './product-Page';
-import { AlertsModule } from './alerts';
 import { CommonModule } from '@angular/common';
+import { ProductPageModule } from './product-Page';
 
 
 @NgModule({
@@ -14,8 +13,8 @@ import { CommonModule } from '@angular/common';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MainPageModule,
-    CommonModule
+    CommonModule,
+    ProductPageModule
     
   ],
   providers: [

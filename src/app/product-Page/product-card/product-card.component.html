@@ -1,0 +1,19 @@
+<div class="product-container">
+    <div class="image-container">
+      <ng-container *ngIf="product.images[0]">
+        <img class="image" src="{{product?.images[0]}}" alt="{{product?.title}}"/>
+      </ng-container>
+      <ng-container *ngIf="!product.images[0]">
+        <span>No Image</span>
+      </ng-container>
+    </div>
+    <div>
+      <h2>{{product?.title}}</h2>
+      <span>{{product?.description}}</span><br>
+      <span>AUD ${{product?.price}}</span>
+    </div>
+    <div>
+      
+    </div>
+  </div>
+  

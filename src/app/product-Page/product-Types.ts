@@ -15,3 +15,12 @@ export interface Product {
   export interface Products {
     products: Product[];
   }
+
+  //TODO: Create category interface, create a category list interface
+export interface Category {
+  "title": string
+}
+
+export interface Categories {
+  categories: Category[];
+}

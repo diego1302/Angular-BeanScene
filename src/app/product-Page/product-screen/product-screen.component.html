@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="container-header row row-cols-2">
+      <div class="logo-container col-3">hello</div>
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>Category</span>
+        </div>
+        <div class="display-information collapse" *ngIf="categories">
+          <div *ngFor="let item of categories">
+              <app-category  [category]="item"></app-category> 
+          </div>
+        </div>
+      </div>
+    </div>
+</div>   
+
+<div class="container">
+    <div class="card-container" *ngIf="products.length">
+      <div class="product-card" *ngFor="let item of products">
+        <app-product-card [product]="item">
+        </app-product-card>
+      </div>
+    </div>
+</div>
+    
+ 

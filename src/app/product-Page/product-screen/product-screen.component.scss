@@ -1,0 +1,18 @@
+.accordion-item {
+    flex: auto;
+}
+
+.accordion-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: #023047;
+    color: white;
+}
+
+.accordion-item:hover .display-information {
+    display: block;
+    background-color: #023047;
+    color: #caf0f8;
+    columns: 3;
+  }
